@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.slider{
+    width: 800px;
+    overflow-x: auto;
+    pointer-events: none;
+}
+.slider::-webkit-scrollbar{
+    display: none;
+    
+}
+.slides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:2800px;
+   
+}
+
+.slides img{
+    width: 400px;
+    height: 400px;
+}
